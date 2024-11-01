@@ -124,3 +124,64 @@
 #call-box-title{
     color: #FFF;
 }
+/* footer section style */
+.footer{
+    background: #151414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 300px; */
+}
+.footer-column{
+    padding: 100px 150px ;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-description, .footer-column > .email, .phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    max-width: 485px;
+}
+.footer-icons{
+    /* justify-content: space-around; */
+    gap: 50px;
+    margin-top: 10px;
+}
+.icon{
+    margin-right: 15px;
+}
+#user-info{
+    display:block;
+}
+.subscribe{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-column > input{
+    border-radius: 8px;
+    background: #151414;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 150px 20px 20px;
+}
+.subscribe-button{
+    margin-top: 25px;
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    border: 0;
+}
